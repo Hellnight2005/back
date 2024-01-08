@@ -5,9 +5,9 @@
 // package.json
 
 // The basic three line of models
-// import mongooose from "mongoose"
-// const (Model-Name)Schema = new mongooose.Schema({})
-// export const (Model-Name) = new mongooose.model("(Model-Name)", (Model-Name)Schema)
+// import mongooose, { models } from "mongoose"
+// const UserSchema = new mongooose.Schema({})
+// export const user = mongooose.model("User", UserSchema) 
 
 import mongooose, { models } from "mongoose"
 const UserSchema = new mongooose.Schema(
