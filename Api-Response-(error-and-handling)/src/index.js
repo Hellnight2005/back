@@ -9,7 +9,14 @@ dotenv.config({
 })
 // here we call databases from index file 
 connectDB()
-
+.then(() => {
+    app.listen(process.env.PORT || 9000, () => {
+        console.log(`Serve is run at : ${process.env.PORT}`);
+    })
+})
+.catch((err)=>{
+    console.log("MONGO DB connection failed...!!!!", err);
+})
 
 
 /*
