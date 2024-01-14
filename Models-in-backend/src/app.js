@@ -23,4 +23,4 @@ app.use(express.static("Token"))
 // for cured operation 
 app.use(cookieParser())
 
-export{app}
+export{ app }

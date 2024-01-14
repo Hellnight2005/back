@@ -1,7 +1,7 @@
 import dotenv from "dotenv"
 // import mongoose, { connect } from "mongoose";
 // import { DB_NAME } from "./constants.js";
-import connectDB from "./db/index.js";
+import connectDB from "C:\Users\Abhijeet\Desktop\Abhijeet\Back\back\Router-Controller\src\db\index.js";
 
 // here we give dotenv path 
 dotenv.config({

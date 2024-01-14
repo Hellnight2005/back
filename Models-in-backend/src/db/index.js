@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 // here import constants.js file into DB_NAME 
-import { DB_NAME } from "../constants.js";
+import { DB_NAME } from "C:\Users\Abhijeet\Desktop\Abhijeet\Back\back\Models-in-backend\src\constants.js";
 
 const connectDB = async () => {
     try {
