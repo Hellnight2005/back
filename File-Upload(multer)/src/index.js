@@ -2,12 +2,14 @@ import dotenv from "dotenv"
 // import mongoose, { connect } from "mongoose";
 // import { DB_NAME } from "./constants.js";
 import connectDB from "./db/index.js";
+import express from "express";
 
 // here we give dotenv path 
 dotenv.config({
     path: 'C:\Users\Abhijeet\Desktop\Abhijeet\Back\back\Database-Connection\.env'
 })
 // here we call databases from index file 
+const app = express();  // Create an express app
 connectDB()
 .then(() => {
     app.listen(process.env.PORT || 9000, () => {
