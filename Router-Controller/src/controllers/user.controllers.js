@@ -9,5 +9,4 @@ const registeruser = asyncHandler( async (req, res ) => {
 
 
 
-
 export {registeruser} 

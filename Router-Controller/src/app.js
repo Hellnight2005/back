@@ -24,10 +24,11 @@ app.use(express.static("Token"))
 app.use(cookieParser())
 
 // routes import 
-import UserRouter from "Router-Controller/src/routes/user.routes.js";
+import UserRouter from "Router-Controller/src/routes/user.routes.js"
 
 
 // router declaration 
 app.use("/api/v1/users", UserRouter)
+
 
 export{ app }
